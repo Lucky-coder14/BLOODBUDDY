@@ -60,9 +60,6 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(RecipientRegistrationActivity.this,LoginActivity.class);
                 startActivity(intent);
-
-
-
             }
         });
             profile_image = findViewById(R.id.profile_image);
@@ -71,8 +68,8 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
             registerPhoneNumber = findViewById(R.id.registerPhoneNumber);
             registerEmail = findViewById(R.id.registerEmail);
             registerPassword = findViewById(R.id.registerPassword);
-            bloodGroupsSpinner = findViewById(R.id.bloodGroupSpinner);
-            registerButton = findViewById(R.id.registerButton);
+            bloodGroupsSpinner = findViewById(R.id.BloodGroupSpinner);
+            registerButton = findViewById(R.id.rregisterButton);
             loader = new ProgressDialog(this);
             mAuth = FirebaseAuth.getInstance();
 
@@ -95,7 +92,7 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
                     final String fullName = registerFullName.getText().toString().trim();
                     final String idNumber= registerIdNumber.getText().toString().trim();
                     final String phoneNumber = registerPhoneNumber.getText().toString().trim();
-                    final String bloodGroup = bloodGroupsSpinner.getSelectedItem().toString();
+                   final String bloodGroup = bloodGroupsSpinner.getSelectedItem().toString();
 
                     if(TextUtils.isEmpty(email)){
                         registerEmail.setError("Email is required!");
@@ -118,9 +115,9 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
                         return;
                     }
                     if(bloodGroup.equals("Select your blood group")){
-                        Toast.makeText(RecipientRegistrationActivity.this, "Select your blood group",Toast.LENGTH_SHORT).show();
-                        return;
-                    }
+                      Toast.makeText(RecipientRegistrationActivity.this, "Select your blood group",Toast.LENGTH_SHORT).show();
+                       return;
+                   }
                     else{
                         loader.setMessage("Registering you.....");
                         loader.setCanceledOnTouchOutside(false);
@@ -145,7 +142,7 @@ public class RecipientRegistrationActivity extends AppCompatActivity {
                                     userInfo.put("phonenumber" ,phoneNumber);
                                     userInfo.put("bloodgroup" ,bloodGroup);
                                     userInfo.put("type" ,"recipient");
-                                    userInfo.put("search" ,"recipient"+bloodGroup);
+                                   userInfo.put("search" ,"recipient"+bloodGroup);
 
                                     userDatabaseRef.updateChildren(userInfo).addOnCompleteListener(new OnCompleteListener() {
                                         @Override

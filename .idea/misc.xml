@@ -4,15 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/button_background.xml" value="0.2651282051282051" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/header_background.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_about.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_compatible.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_lock.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_mail.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_myfeed.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_number.xml" value="0.1" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_person.xml" value="0.2651282051282051" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_phone.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_rate.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/ic_share.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/navigation_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/navigation_view_item_selected.xml" value="0.1" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_Splash_Screen.xml" value="0.253125" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_donor_registeration.xml" value="0.25226449275362317" />
-        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_profile.xml" value="0.2375" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_recipient_registration.xml" value="0.253125" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_select_registeration.xml" value="0.17527173913043478" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/header.xml" value="0.4" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/user_displayed_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/menu/main_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
