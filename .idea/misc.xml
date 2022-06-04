@@ -22,14 +22,19 @@
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/navigation_selector.xml" value="0.1" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/drawable/navigation_view_item_selected.xml" value="0.1" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_Splash_Screen.xml" value="0.253125" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_category_selected.xml" value="0.2203125" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_donor_registeration.xml" value="0.25226449275362317" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_notification.xml" value="0.253125" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_profile.xml" value="0.2375" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_recipient_registration.xml" value="0.253125" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_select_registeration.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_sent_email.xml" value="0.22760416666666666" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/header.xml" value="0.4" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/notification_item.xml" value="0.253125" />
+        <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/output_layout.xml" value="0.1" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/layout/user_displayed_layout.xml" value="0.264" />
         <entry key="..\:/Users/Lucky/AndroidStudioProjects/BloodBuddy/app/src/main/res/menu/main_menu.xml" value="0.2" />
       </map>

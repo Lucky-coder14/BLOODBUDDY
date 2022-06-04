@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -145,6 +146,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                   }else{
                       nav_profile_image.setImageResource(R.drawable.profile_image);
                   }
+
+
+                  Menu nav_menu = nav_View.getMenu();
+                  if(type.equals("donor")){
+                      nav_menu.findItem(R.id.sentEmail).setTitle("Received Emails");
+                      nav_menu.findItem(R.id.notifications).setVisible(true);
+                  }
                }
             }
 
@@ -223,7 +231,69 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.profile:
+            case R.id.aplus:
+                Intent intent1 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent1.putExtra("group" , "A+");
+                startActivity(intent1);
+                break;
+            case R.id.aminus:
+                Intent intent2 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent2.putExtra("group" , "A-");
+                startActivity(intent2);
+                break;
+
+            case R.id.bplus:
+                Intent intent3 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent3.putExtra("group" , "B+");
+                startActivity(intent3);
+                break;
+
+            case R.id.bminus:
+                Intent intent4 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent4.putExtra("group" , "B-");
+                startActivity(intent4);
+                break;
+
+            case R.id.abplus:
+                Intent intent5 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent5.putExtra("group" , "AB+");
+                startActivity(intent5);
+                break;
+
+            case R.id.abminus:
+                Intent intent6 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent6.putExtra("group" , "AB-");
+                startActivity(intent6);
+                break;
+            case R.id.oplus:
+                Intent intent7 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent7.putExtra("group" , "O+");
+                startActivity(intent7);
+                break;
+            case R.id.ominus:
+                Intent intent8 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent8.putExtra("group" , "O-");
+                startActivity(intent8);
+                break;
+            case R.id.compatible:
+                Intent intent9 = new Intent(MainActivity.this,CategorySelectedActivity.class);
+                intent9.putExtra("group" , "Compatible with me");
+                startActivity(intent9);
+                break;
+
+            case R.id.sentEmail:
+                Intent intent10 = new Intent(MainActivity.this,SentEmailActivity.class);
+                startActivity(intent10);
+                break;
+
+            case R.id.notifications:
+                Intent intent11 = new Intent(MainActivity.this,NotificationActivity.class);
+                startActivity(intent11);
+                break;
+
+
+
+                case R.id.profile:
                 Intent intent = new Intent(MainActivity.this,ProfileActivity.class);
                 startActivity(intent);
                 break;
